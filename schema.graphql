@@ -1,6 +1,7 @@
-type ExampleEntity @entity {
+type LogNewAcc @entity {
   id: ID!
-  count: BigInt!
-  sender: Bytes! # address
-  owner: Bytes! # address
+  sender: Bytes!
+  owner: Bytes!
+  account: Bytes!
+  orgin: Bytes!
 }
